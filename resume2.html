@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dbcfcf;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+        }
+        .container {
+            background-color: rgb(234, 230, 211);
+            border-radius: 8px;
+            overflow: hidden;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(109, 62, 62, 0.1);
+            
+        }
+        .top {
+            background-color: rgb(141, 232, 225);
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            flex-direction: column;
+            text-align: center;
+        
+            
+        }
+        .top img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            position: relative;
+            left: 230px;
+            top: 150px;
+            
+
+                                                                            
+        }
+        .top .tit {
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow:1px 1px red ;
+        }
+        .top p {
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: 0.5px 1px black;
+        }
+        .main {
+            display: flex;
+            padding: 20px;
+        }
+        .left, .right {
+            padding: 20px;
+        }
+        .left {
+            width: 40%;
+        }
+        .right {
+            width: 60%;
+            /* background-color: #f9f9f9;
+            padding: 20px;
+            /* border-left: 1px solid #ddd; */
+        }
+        .info i {
+            margin-right: 10px;
+        }
+        h3 {
+            margin-top: 20px;
+            font-size: 20px;
+            text-shadow: 1px 1px 1px rgb(218, 38, 38);
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .skills, .projects, .trainings, .declaration {
+            margin-bottom: 20px;
+        }
+        hr{
+            box-shadow: 1px 1px 2px rgba(47, 26, 142);
+        }
+        .tit{ 
+            position: relative;
+            left: -150px;
+            letter-spacing: 5px;
+            bottom: 50px;
+
+        }
+        .j{
+            position: relative;
+            left: -250px;
+            letter-spacing: 7px;
+            bottom: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <img src="./sirisha pic.jpg" alt="Profile Picture">
+            <div class="tit">MUPPI SHIRISHA</div>
+            <p class="j">WEB DEVELOPER</p>
+        </div>
+        <div class="main">
+            <div class="left">
+                <div class="info">
+                    <p><i class="fa-solid fa-phone"></i>8465065322</p>
+                    <p><i class="fa-solid fa-envelope"></i> sirishamuppi@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Hyderabad, IN 500050</p>
+                    <p><i class="fa-brands fa-linkedin"></i> <a href="h/">LinkedIn</a></p>
+                    <p><i class="fa-brands fa-github"></i> <a href="h">GitHub</a></p>
+                </div>
+                <hr>
+                <div class="education">
+                    <h3>EDUCATION</h3>
+                    <li><strong>MLRITM </strong>- BTech Computer Science and Engineering (AIML), 2024</li>
+                    <li><strong>Narayana Junior College</strong> - Board Of Intermediate Education (MPC), 2020</li>
+                    <li> <strong>Vidya Vani High School</strong>, 2018</li>
+                </div>
+                <hr>
+                <div class="skills">
+                    <h3>TECHNICAL SKILLS</h3>
+                    <li>Front End Technologies: HTML, CSS, JavaScript</li>
+                    <li>Database: MySQL, SQL</li>
+                    <li>Developer Tools: VS Code, Git, GitHub</li>
+                    <li>Programming Languages: Python, Java (Basics)</li>
+                </div>
+                <hr>
+                <div class="projects">
+                    <h3>PROJECTS</h3>
+                    <li>
+                        <strong>Face Recognition Based Attendance Management System</strong> - PYTHON, OpenCV, TensorFlow/Keras
+                        <p>Description: The system is developed for deploying an easy and secure way of taking down attendance. The software captures an image of all the authorized persons and stores the information in a database. The system then maps the image into a face coordinate structure.</p>
+                    </li>
+                </div>
+            </div>
+            <hr>
+            <div class="right">
+                <div class="projects">
+                    <h3>ADDITIONAL PROJECTS</h3>
+                    <li>
+                        <strong>Spam Mail Detection Using Machine Learning</strong> - PYTHON, Pandas, NumPy
+                        <p>Spam e-mail detection involves applying algorithms and rules to locate and delete unwanted or unwelcome e-mails. These algorithms and guidelines frequently look at an e-mail's content, the sender's reputation, and other factors to determine if it is likely to be spam.  </p>
+                    </li>
+                    <hr>
+                </div>
+                <div class="trainings">
+                    <h3>TRAININGS AND CERTIFICATIONS</h3>
+                    <li>Python - <a href="https://www.kaggle.com/learn/certification/sirishamuppi/python">Link</a></li>
+                    <li>SQL - <a href="https://www.hackerrank.com/certificates/15063600bfd6">Link</a></li>
+                    <li>DSA Certificate - <a href="https://smartinterviews.in/certificate/291c5500">Link</a>
+                    </li>
+                    <hr>
+                </div>
+                <div class="soft">
+                    <h3>SOFT SKILLS</h3>
+                    <li>COMMUNICATION</li>
+                    <li>ADAPTABILITY</li>
+                    <li>TIME MANAGEMENT</li>
+                    <li>LEADERSHIP</li>
+                    <hr>
+
+                </div>
+                <div class="declaration">
+                    <h3>DECLARATION</h3>
+                    <p>I hereby declare that all the above information is true and correct to the best of my knowledge.</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

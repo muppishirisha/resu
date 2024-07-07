@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       
+        .resume-container {
+            display: flex;
+            width: 90%;
+            max-width: 1000px;
+            background-color: rgb(84, 84, 84);
+            box-shadow: 0 4px 8px rgba(176, 148, 148, 0.5);
+            border-radius: 33px
+        
+        }
+        .left-column {
+            flex: 1.2;
+            background-color: #d4ade5;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .left-column img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            
+        }
+        .right-column {
+            flex: 2;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(199, 239, 227);
+            /* align-items: ; */
+        }
+        .full-name {
+            font-size: 32px;
+            font-weight: 700;
+            margin: 0;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .section  li{
+            font-size: 14px;
+            line-height: 1.4;        
+        }
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #444;
+            margin-bottom: 10px;
+            text-align: cente;
+        }
+        .section-content {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .section-project .section-content{
+            font-size: 20px;
+        }
+        .section-project li{
+            font-size: 13px;  
+            line-height: 1.4;
+        
+        }
+        .right-column .full-name{
+            line-height:0.8;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid blue;
+            width: 100%;
+            margin: 10px 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        img{
+            border: 2px solid;
+            padding: 3px;
+            box-shadow:2px 1.6px ;
+            
+        
+        }
+        .g{
+            
+            align-self:end;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="left-column">
+            <img src="./sirisha pic.jpg">
+            <div class="section">
+                <h2 class="section-title">CONTACT</h2>
+                <p class="section-content">
+                    <i class="fa-solid fa-envelope"></i>: sirishamuppi@gmail.com<br>
+                    <i class="fa-solid fa-phone"></i>: 8465065322<br>
+                    Address:3-67/3/1,Gangaram,Hyderabad
+                </p>
+            </div>
+            <hr>
+            <div class="section">
+                <h2 class="section-title">SKILLS :-</h2>
+                    <ul>
+                        <li><b>Languages:-</b> JAVA, Python, HTML, CSS, JavaScript</li>
+                        <li><b>Tools:-</b>GitHub, Excel, Power Point, SQLite, Aws</li>
+                        <li><b>Platforms:-</b>PyCharm, Visual Studio Code</li>
+                        
+                    </ul>
+            </div><hr>
+            <div class="section">
+                <h2 class="section-title">LEADERSHIP:-</h2>
+                <p class="section-content">
+                    During my college projects,My ability to motivate and guide team members fostered a collaborative environment that drove successful project outcomes. I excel in strategic planning and problem-solving, which were critical in navigating challenges and delivering high-quality results.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="right-column">
+            <p class="full-name">MUPPI</p>
+            <p class="full-name">SHIRISHA</p>
+            <p class="g">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-hackerrank"></i>
+                <i class="fa-brands fa-discord"></i>
+            </p><hr>
+            <div class="section-project">
+                <h2 class="section-title">PROJECTS</h2>
+                <h3 class="section-content">FACE RECOGNITION</h3>
+                    <ul>
+                        <li>
+                            <b>Objective:</b>-The objective of face recognition is, from the incomingimage, to find a series of data of the same face in a set oftraining images in a database. 
+                            </li>
+                            <li><b>Implementation:</b>- The proposed model is based on face recognition mechanism. The basic methodology is presented in figure Whenever a student enters the class and comes across the camera module of the system his image is captured in the system and is recognized and validated if he is a student of the class. 
+                            </li>
+                            <li><b>Algorithm and comparing:</b> Here, in LBPH algorithm the motive is to concentrate on local and small features of an image rather than looking at the whole. The algorithm compares the relative and local pixels of an image in order to generate the local set of the image structure.</li>
+                    </ul>
+                <h3 class="section-content">SPAM MAIL DETECTION USING ML</h3>
+                <ul>
+                    <li>
+                        <b>Objective</b>- The objective of the spam mail detection project is to develop a robust system capable of accurately distinguishing spam emails from legitimate ones,thereby enhancing email communication efficiency.</li>
+                        <li><b>Technical Skills:</b>PYTHON,TENSORFLOW,PANDAS,PYTORCH</li>
+                        <li>Efficiency:our application which implements navie bayes classifier is more efficient compared to other existing system as a bayes spam filter is an adaptable system and its efficiency improves over time.</li>
+                        <!-- <li><b>Impact:</b> Contributed to improved security and user authentication processes through the development of a reliable iris recognition system.</li> -->
+                </ul>
+                   
+            </div>
+            <hr>
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <p class="section-content">
+                    <strong>Artificial Intelligence and Machine Learning(AI&ML)</strong><br>
+                    -Marri Laxman Reddy Institute Of Technology and Management,<br><b>CGPA:- 7.50</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020-2024<br><br>
+                    </p>
+                <hr>
+                <div class="section">
+                    <h2 class="section-title">Certification</h2>
+                    <p class="section-content">
+                    <b>DSA:-</b>Data Structures and Algorithms Certification, completed through Smartinterviews <a href="https://smartinterviews.in/certificate/291c5500">link</a><br>
+                    <b>SQL:-</b>SQl Certification, Obtained from SkillUp <a href="https://www.hackerrank.com/certificates/15063600bfd6">link</a><br>
+                        <b>FRONT-END:-</b>front-end Certification, Obtained from coursera
+                        
+
+                    </p>   
+                    
+                        
+            </div>
+        </div>
+    </div>
+</body>
+</html>
